@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Krish's Experiences</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: azure;
+                overflow: hidden;
+                display: block;
+            }
+            li {
+                float: left;
+            }
+            #menu {
+                display: block;
+                float: left;
+                color: black;                
+                text-align: center;
+                padding: 14px 16px;
+                width: 300px;
+                height: 30px;
+                font-size: large;
+            }
+            li a:hover{
+                background-color: lightblue;
+                display: block;
+            }
+        </style>
+    </head>
+    <body style="background-color: black; font-family: Arial, Helvetica, sans-serif; font-family: 'Exo 2', sans-serif;">
+        <ul>
+            <li id="menu"><a href="aboutme.html" style="text-decoration: none; color: black;">About Me</a></li>
+            <li id="menu"><a href="project.html" style="text-decoration: none; color: black;">Projects</a></li>
+            <li id="menu"><a href="C:\Users\krish\Downloads\Krish_Chhajer_Resume (1).pdf" download="newfilename" style="text-decoration: none; color: black;">Resume</a></li>
+            <li id="menu"><a href="contactme.html" style="text-decoration: none; color: black;">Contact Me</a></li>
+        </ul>
+        <ul style="background-color: black;">
+            <h1 style="color: azure;">PROJECTS</h1>
+            <li>
+                <h2 style="color: azure; "><a href="https://devpost.com/software/munchmate" style="text-decoration: none; color: azure; position: absolute; left: 1%;">MunchMate</a></h2>
+                <img src="bot.jpg" alt="MunchMate" style="width: 20%; height: auto; position: absolute; left: 1%; top: 25%;" >
+                <div style="color: azure; width: 70%; position: absolute; left: 25%; top: 22%; text-align: justify;">
+                    <p>
+                        The transition to university can be stressful. From midterms to budgeting, students experience a variety of newfound challenges in their day to day life. 
+                        As a result, students often neglect their healthy eating habits due to lack of guidance and support. 
+                        We all know a healthy body is a healthy mind, so who can replace the mom in our lives to ensure we eat healthy?
+                    </p>
+                    <p>
+                        MunchMate is a Discord bot that provides users personalized food recommendations for a specified dining hall. It gives these recommendations based on a scale of 1 to 10 provided by the user, where 5 represents maintaining their weight, 10 being gaining the most weight, and 0 representing losing the most weight.
+                    </p>
+                    <p>
+                        I worked on the web scraping of the website where we used BeautifulSoup and Selenium in an attempt to web scrape the dorm's website. I also used pandas to convert data stored in the excel file to Dataframes. A lot of irrelevant data was filtered out and the 
+                        data was then manipulated to be used by the Python bot to process and filter out the necessary food items based on the user's needs.
+                    </p>
+
+                </div>
+            </li>
+            <li>
+                <h2 style="color: azure; "><a href="https://github.com/k-chhajer/covid_data_analysis" style="text-decoration: none; color: azure; position: absolute; top: 55%; left: 1% ;">Covid 19 Data Analysis (In Progress)</a></h2>
+                <img src="uscovid.png" alt="US States Covid Heatmap" style="width: 20%; height: auto; position: absolute; left: 1%; top: 60%;" >
+                <div style="color: azure; width: 70%; position: absolute; left: 25%; top: 58%; text-align: justify;">
+                    <p>
+                        Covid 19 proved to be a life-changing period in all of our lives! Thousands of people all across the globe were infected
+                        with the virus that took thousands of lives and affected millions everywhere. Particulary in the United States, amongst other
+                        populated countries of the world, was severely affected economically and public health wise.
+                    </p>
+                    <p>
+                        In this project, I dive as a beginner into analysing the dataset of the Covid 19 tracking history of various US states. I use Python, pandas
+                        and Matplotlib to create visualisations while learning how to manipulate and analyse data. I have also made extensive use of other libraries such as Geopandas
+                        and Time to create other effective visualisations and data analytics to better understand this data-set.
+                    </p>
+                    <p>
+                        Currently, I am also trying to build a Machine Learning model that can help predict Covid-19 cases by taking into account this previous data.
+                        This has various usecases in the future when we will be using such models to better understand global epidemics and pandemics.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <h2 style="color: azure; "><a href="" style="text-decoration: none; color: azure; position: absolute; top: 85%; left: 1% ;">Personal Website</a></h2>
+                <img src="personalweb.jpeg" alt="US States Covid Heatmap" style="width: 20%; height: auto; position: absolute; left: 1%; top: 91%;" >
+                <div style="color: azure; width: 70%; position: absolute; left: 25%; top: 90%; text-align: justify;">
+                    <p>
+                        I built this website as a kickstart to learning Front end and Back end development in Software Engineering. Through Harvard's CS50W,
+                        which I am currently self-learning online, I learnt the necessary skills and technical expertise needed to build this website.
+                    </p>
+                    <p>
+                        The website was built using HTML, CSS, Bootstrap and HTP. I in-built various other features into the website including multiple pages and 
+                        several different forms of styling for the Contact Us page using Bootstrap. I also used HTP to create the Contact Us page to enable
+                        me to understand who fills the forms out!
+                    </p>
+                    <p>
+                        I am constantly trying to improve this website's code structure including the CSS and add other features to it. I also discuss potential improvements
+                        to this webpage on the Github.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <h2 style="color: azure; "><a href="https://devpost.com/software/trashtalker-bj47ex" style="text-decoration: none; color: azure; position: absolute; top: 115%; left: 1% ;">TrashTalker</a></h2>
+                <img src="trasharduino.jpg" alt="Trash Arduino Bot" style="width: 20%; height: auto; position: absolute; left: 1%; top: 120%;" >
+                <div style="color: azure; width: 70%; position: absolute; left: 25%; top: 120%; text-align: justify;">
+                    <p>
+                        Waste management is a critical challenge in today's world, and effective waste sorting is a key aspect of sustainable living. The motivation behind this project is to leverage technology to simplify and automate the waste sorting process, making it easier for individuals and communities to contribute to a cleaner environment.
+                    </p>
+                    <p>
+                        The Smart Trash Sorting System utilizes an Arduino-based sorting mechanism, involving electrical hardware, to categorize trash into either garbage, or compostable materials.
+                    </p>
+                    <p>
+                        I used Front End Development skills and worked on the project's website using HTML, CSS, Bootstrap and Python. Also worked on the 
+                        Arduino code to program the Arduino UNO to take in sensor readings from the Soil Moisture Sensor and use it to program the motors.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>
